@@ -1,4 +1,7 @@
 from math import pi, sqrt
+from time import sleep
+
+#TODO: Add a sleep timer that takes 1.5 seconds 'Calculating... ' => Answer
 
 class Circle:
     def radiusFromDiam(d):
