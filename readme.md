@@ -1,8 +1,8 @@
-# Many Math Functions
 
-## This module is made for Python 3
+Many Math Functions
+===================
 
-### Feel free to explore the package soure code on [GitHub][1] or download directly from [PyPi][2]
+This module is made for Python 3
+--------------------------------
 
-[1]: https://github.com/TheOnlyWalrus/manymathfunctions
-[2]: https://pypi.org
+Feel free to explore the package source code on [GitHub](https://github.com/TheOnlyWalrus/manymathfunctions) or download directly from [PyPi](https://pypi.org/project/manyMathFunctions)

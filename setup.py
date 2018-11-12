@@ -5,7 +5,7 @@ desc = open('readme.md', 'r')
 setup(
 
     name="manyMathFunctions",
-    version="0.0.5",
+    version="0.0.7",
     author="TheOnlyWalrus",
     description="See long description / README.md",
     long_description=desc.read(),
@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT",
+        "License :: OSI Approved :: MIT License",
         "Topic :: Education",
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Education",
