@@ -25,6 +25,18 @@ class Circle:
             r = (c / pi) / 2
             return r
 
+    def radiusFromArea(a):
+        if type(a) != int and type(a) != float:
+            try:
+                a = float(a)
+                r = sqrt(a / pi)
+                return r
+            except:
+                return 'Invalid Value'
+        else:
+            r = sqrt(a / pi)
+            return r
+
     def diamFromRadius(r):
         if type(r) != int and type(r) != float:
             try:
@@ -47,6 +59,18 @@ class Circle:
                 return 'Invalid Value'
         else:
             d = c / pi
+            return d
+
+    def diamFromArea(a):
+        if type(a) != int and type(a) != float:
+            try:
+                a = float(a)
+                d = sqrt(a / pi) * 2
+                return d
+            except:
+                return 'Invalid Value'
+        else:
+            d = sqrt(a / pi) * 2
             return d
 
     def circumFromRadius(r):
@@ -72,6 +96,53 @@ class Circle:
         else:
             c = d * pi
             return c
+
+    def circumFromArea(a):
+        if type(a) != int and type(a) != float:
+            try:
+                a = float(a)
+                c = 2 * pi * sqrt(a / pi)
+                return c
+            except:
+                return 'Invalid Value'
+        else:
+            c = 2 * pi * sqrt(a / pi)
+            return c
+
+    def areaFromRadius(r):
+        if type(r) != int and type(r) != float:
+            try:
+                r = float(r)
+                a = pi * r ** 2
+                return a
+            except:
+                return 'Invalid Value'
+        else:
+            a = pi * r ** 2
+            return a
+    
+    def areaFromDiam(d):
+        if type(d) != int and type(d) != float:
+            try:
+                d = float(d)
+                a = pi * (d / 2) ** 2
+                return a
+            except:
+                return 'Invalid Value'
+        else:
+            a = pi * (d / 2) ** 2
+            return a
+    
+    def areaFromCircum(c):
+        if type(c) != int and type(c) != float:
+            try:
+                c = float(c)
+                a = pi * ((c / pi) / 2) ** 2
+                return a
+            except:
+                return 'Invalid Value'
+        else:
+            a = pi * ((c / pi) / 2) ** 2
 
 class Line:
     def slope(xy1, xy2):
