@@ -5,10 +5,11 @@ desc = open('readme.md', 'r')
 setup(
 
     name="manyMathFunctions",
-    version="0.0.7",
+    version="0.0.7.1",
     author="TheOnlyWalrus",
     description="See long description / README.md",
     long_description=desc.read(),
+    long_description_content_type="text/markdown",
     url="https://github.com/TheOnlyWalrus/manymathfunctions",
     packages=find_packages(),
     classifiers=[
